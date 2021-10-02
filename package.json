@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "build-dev": "webpack --config webpack.config.js",
   "scripts": {
-    "start": "lite-server --baseDir=app"
+    "start": "lite-server --baseDir=app",
+    "build-dev": "webpack --mode development --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",

@@ -11,7 +11,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './app/src/app.html',
       filename: 'app.html',
-      clean: true
+      clean: true,
+      hash: true
     })
   ]
 }
